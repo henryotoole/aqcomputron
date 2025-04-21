@@ -1,4 +1,7 @@
 dev/
+.venv
+.env
+.pytest_cache
 
 # Python stuff
 __pycache__/
