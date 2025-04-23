@@ -37,7 +37,7 @@ class Vents():
 		"""
 		
 		GPIO.output(self.pin_main_fan_relay, GPIO.HIGH if power_state else GPIO.LOW)
-		self._state_main_fan_relay = True
+		self._state_main_fan_relay = power_state
 
 	@property
 	def main_fan_state(self) -> bool:
